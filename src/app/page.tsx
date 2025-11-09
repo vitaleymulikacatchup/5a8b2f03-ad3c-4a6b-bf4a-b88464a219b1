@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { ChefHat, Handshake, Heart, MapPin, Star } from "lucide-react";
+import { ChefHat, Handshake, Heart, MapPin, Star, Instagram, Facebook, Phone } from "lucide-react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -213,17 +213,17 @@ export default function Home() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/goldencrustbakery",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/goldencrustbakery",
               ariaLabel: "Like us on Facebook"
             },
             {
-              icon: "Phone",
+              icon: Phone,
               href: "tel:+15551234567",
               ariaLabel: "Call us"
             }
